@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "账单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-datetime-picker": "/uni_modules/uview-ui/components/u-datetime-picker/u-datetime-picker"
+  }
+}

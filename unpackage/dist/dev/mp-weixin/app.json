@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/share/share",
+    "pages/login/login",
+    "pages/msg/msg",
+    "pages/user/user",
+    "pages/register/register",
+    "pages/findPwd/findPwd"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "search/search",
+        "searchResult/searchResult",
+        "detail/detail",
+        "cate/cate"
+      ]
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "orderList/orderList"
+      ]
+    },
+    {
+      "root": "pagesC",
+      "pages": [
+        "orderDetail/orderDetail",
+        "bill/bill",
+        "message/message",
+        "collection/collection",
+        "info/info"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "color": "#CBCBCB",
+    "selectedColor": "#FA842B",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/home-a.jpg",
+        "selectedIconPath": "static/tabbar/home-a.jpg",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "iconPath": "static/tabbar/msg-a.jpg",
+        "selectedIconPath": "static/tabbar/msg-a.jpg",
+        "text": "客服"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "static/tabbar/home-a.jpg",
+        "selectedIconPath": "static/tabbar/home-a.jpg",
+        "text": "分享"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/home-a.jpg",
+        "selectedIconPath": "static/tabbar/home-a.jpg",
+        "text": "我的"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/home/home": {
+      "network": "all",
+      "packages": [
+        "pagesA",
+        "pagesB",
+        "pagesC"
+      ]
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "测试"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "usingComponents": {}
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "liu-countdown": "/uni_modules/liu-countdown/components/liu-countdown/liu-countdown",
+    "product-info": "/components/productInfo/productInfo",
+    "tabbar": "/components/tabbar/tabbar"
+  }
+}

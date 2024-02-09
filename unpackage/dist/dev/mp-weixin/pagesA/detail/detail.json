@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "liu-countdown": "/uni_modules/liu-countdown/components/liu-countdown/liu-countdown",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-popup": "/uni_modules/uview-ui/components/u-popup/u-popup",
+    "u-radio-group": "/uni_modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/uni_modules/uview-ui/components/u-radio/u-radio",
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-number-box": "/uni_modules/uview-ui/components/u-number-box/u-number-box",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input"
+  }
+}
